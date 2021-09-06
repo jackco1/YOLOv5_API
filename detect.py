@@ -82,8 +82,8 @@ def inference(imgstr):
                 detection["h"] = round(xywh[3], 5)
                 outputs["image"]["annotations"].append(detection)
                 
-            return json.dumps(outputs)
                     
         else:
-            return []
+            outputs["image"] = "No detections made"
             
+    return json.dumps(outputs)  
