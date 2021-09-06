@@ -1,6 +1,0 @@
-path: 'C:\ICT302'
-train: 'traffic\ts\ts'
-val: 'traffic\ts\ts'
-
-nc: 4
-classes: [ 'prohibitory', 'danger', 'mandatory', 'other' ]
