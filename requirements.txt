@@ -1,10 +1,11 @@
 # pip install -r requirements.txt
 
 # base ----------------------------------------
+opencv-python>=4.5.3.56
 matplotlib>=3.2.2
 numpy>=1.18.5
 opencv-python>=4.1.2
-Pillow
+Pillow>=8.1.2
 PyYAML>=5.3.1
 scipy>=1.4.1
 torch>=1.7.0
@@ -32,4 +33,4 @@ pandas>=1.1.5
 thop  # FLOPs computation
 
 # api
-flask
+flask>=2.0.1
